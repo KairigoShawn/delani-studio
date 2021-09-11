@@ -19,3 +19,12 @@ body {
   height: 480px;
   padding-top: 140px;
 }
+#contact-us{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+ color: #000000;
+ text-align: center;
+ font-family: Tahoma;
+ height: 600px;
+ padding-top: 140px;
+}
+
