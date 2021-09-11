@@ -28,3 +28,34 @@ body {
  padding-top: 140px;
 }
 
+#blm{
+ background-image: url(../assets/portfolio/work4.jpg);
+}
+#security{
+ background-image: url(../assets/portfolio/work3.jpg);
+}
+#prism{
+ background-image: url(../assets/portfolio/work2.jpg);
+}
+#hollywood{
+ background-image: url(../assets/portfolio/work1.jpg);
+}
+#daily{
+ background-image: url(../assets/portfolio/work5.jpg);
+}
+#music{
+ background-image: url(../assets/portfolio/work6.jpg);
+}
+#art{
+ background-image: url(../assets/portfolio/work7.jpg);
+}
+#giraffe{
+ background-image: url(../assets/portfolio/work8.jpg);
+}
+.portfolio{
+ width: 250px;
+ height: 250px;
+ color: #ffffff;
+ margin: auto;
+ margin-bottom: 50px;
+}
