@@ -72,3 +72,10 @@ p {
  margin-top: 200px;
 }
 
+.container{
+  text-align: center;
+  background-size: 100%;
+  padding-top: 20px;
+  font-family: Tahoma;
+  font-size: large;
+ }
