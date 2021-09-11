@@ -10,3 +10,12 @@ body {
   padding-top: 300px;
   font-family: Tahoma;
 }
+
+#services{
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  color: #000000;
+  text-align: center;
+  font-family: Tahoma;
+  height: 480px;
+  padding-top: 140px;
+}
