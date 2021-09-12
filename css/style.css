@@ -11,7 +11,7 @@ body {
   font-family: Tahoma;
 }
 
-#services{
+#services {
   background-image: url(../assets/backgrounds/s_image.jpg);
   color: #000000;
   text-align: center;
@@ -19,95 +19,98 @@ body {
   height: 480px;
   padding-top: 140px;
 }
-#contact-us{
+#contact-us {
   background-image: url(../assets/backgrounds/c_image.jpg);
- color: #000000;
- text-align: center;
- font-family: Tahoma;
- height: 600px;
- padding-top: 140px;
+  color: #000000;
+  text-align: center;
+  font-family: Tahoma;
+  height: 600px;
+  padding-top: 140px;
 }
 
-#blm{
- background-image: url(../assets/portfolio/work4.jpg);
+#blm {
+  background-image: url(../assets/portfolio/work4.jpg);
 }
-#security{
- background-image: url(../assets/portfolio/work3.jpg);
- background-position: center;
-
+#security {
+  background-image: url(../assets/portfolio/work3.jpg);
+  background-position: center;
 }
-#prism{
- background-image: url(../assets/portfolio/work2.jpg);
+#prism {
+  background-image: url(../assets/portfolio/work2.jpg);
 }
-#hollywood{
- background-image: url(../assets/portfolio/work1.jpg);
+#hollywood {
+  background-image: url(../assets/portfolio/work1.jpg);
 }
-#daily{
- background-image: url(../assets/portfolio/work5.jpg);
- background-position: center;
+#daily {
+  background-image: url(../assets/portfolio/work5.jpg);
+  background-position: center;
 }
-#music{
- background-image: url(../assets/portfolio/work6.jpg);
- background-position: center;
+#music {
+  background-image: url(../assets/portfolio/work6.jpg);
+  background-position: center;
 }
-#art{
- background-image: url(../assets/portfolio/work7.jpg);
- background-position: center;
+#art {
+  background-image: url(../assets/portfolio/work7.jpg);
+  background-position: center;
 }
-#giraffe{
- background-image: url(../assets/portfolio/work8.jpg);
- background-position: center;
+#giraffe {
+  background-image: url(../assets/portfolio/work8.jpg);
+  background-position: center;
 }
-.portfolio{
- width: 300px;
- height: 300px;
- color: #ffffff;
- margin: auto;
- margin-bottom: 50px;
+.portfolio {
+  width: 300px;
+  height: 300px;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 50px;
 }
 h1 {
- margin-top: 15px;
+  margin-top: 15px;
 }
 
 p {
- margin-top: 25px;
- padding: px;
+  margin-top: 25px;
+  padding: px;
 }
 
 #click {
- margin-top: 200px;
+  margin-top: 200px;
 }
 
-.container{
+.container {
   text-align: center;
   background-size: 100%;
   padding-top: 20px;
   font-family: Tahoma;
   font-size: large;
- }
+}
 
- #design, #dev, #product{
-   cursor: pointer;
- }
- #design-icon:hover, #dev-icon:hover, #product-icon:hover{
-   cursor: pointer;
- }
+#design,
+#dev,
+#product {
+  cursor: pointer;
+}
+#design-icon:hover,
+#dev-icon:hover,
+#product-icon:hover {
+  cursor: pointer;
+}
 
- #blm p,
- #security p,
- #prism p,
- #hollywood p,
- #daily p,
- #music p,
- #art p,
- #giraffe p{
-   display: none;
-   text-align: center;
-   color: #000000;
-   font-family: Tahoma;
-   padding-top: 40%;
- }
+#blm p,
+#security p,
+#prism p,
+#hollywood p,
+#daily p,
+#music p,
+#art p,
+#giraffe p {
+  display: none;
+  text-align: center;
+  color: #000000;
+  font-family: Tahoma;
+  padding-top: 40%;
+}
 
- .hidden {
-   display: none;
- }
+.hidden {
+  display: none;
+}
