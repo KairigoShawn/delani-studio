@@ -53,7 +53,7 @@
             <img src="assets/services_icons/design_icon.png" alt="DESIGNS">
             <p>DESIGN</p>
           </div>
-          <div id="design">
+          <div id="design" class="hidden">
             <h3>DESIGN</h3>
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
             <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
@@ -64,7 +64,7 @@
             <img src="assets/services_icons/dev_icon.png" alt="DEVELOPMENT">
             <p>DEVELOPMENT</p>
           </div>
-          <div id="dev">
+          <div id="dev" class="hidden">
             <h3>DEVELOPMENT</h3>
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -75,7 +75,7 @@
           <img src="assets/services_icons/product_icon.png" alt="PRODUCT-MANAGEMENT">
           <p>PRODUCT MANAGEMENT</p>
           </div>
-          <div id="product">
+          <div id="product" class="hidden">
             <h3>PRODUCT MANAGEMENT</h3>
             <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
@@ -86,38 +86,38 @@
     <div class="container">
       <h1>PORTFOLIO</h1>
       <div class="row align-items-start">
-        <div class="col-sm-3 portfolio" id="blm">
-          <p>BLACK-OUT TUESDAY</p>
+        <div class="col-3 col-sm-6 portfolio" id="blm">
+          <p id="blm-txt">BLACK-OUT TUESDAY</p>
         </div>
-        <div class="col-sm-3 portfolio" id="security">
-          <p>ONTARIO SECURITY</p>
+        <div class="col-3 col-sm-6 portfolio" id="security">
+          <p id="security-txt">ONTARIO SECURITY</p>
         </div>
-        <div class="col-sm-3 portfolio" id="prism">
-          <p>PROJECT PRISM</p>
+        <div class="col-3 col-sm-6 portfolio" id="prism">
+          <p id="prism-txt">PROJECT PRISM</p>
         </div>
-        <div class="col-sm-3 portfolio" id="hollywood">
-          <p>HOLLYWOOD</p>
+        <div class="col-3 col-sm-6 portfolio" id="hollywood">
+          <p id="hollywood-txt">HOLLYWOOD</p>
         </div>
       </div>
       <div class="row align-items-start">
         <div class="col-sm-3 portfolio" id="daily">
-          <p>DAILY AFFIRMATIONS</p>
+          <p id="daily-txt">DAILY AFFIRMATIONS</p>
         </div>
         <div class="col-sm-3 portfolio" id="music">
-          <p>MUSIC STUDIO KIT</p>
+          <p id="music-txt">MUSIC STUDIO KIT</p>
         </div>
         <div class="col-sm-3 portfolio" id="art">
-          <p>ART ON WOOD</p>
+          <p id="art-txt">ART ON WOOD</p>
         </div>
         <div class="col-sm-3 portfolio" id="giraffe">
-          <p>GIRAFFE EATS</p>
+          <p id="giraffe-txt">GIRAFFE EATS</p>
         </div>
       </div>
     </div>
   </div>
   <div id="contact-us">
     <h1>CONTACT US</h1>
-    <form class="container">
+    <form class="container" id="form">
       <div class="row align-items-start">
         <div class="col-6">
           <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -132,7 +132,7 @@
         <textarea class="form-control bg-transparent" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </div>
-      <input type="submit" value="Submit" name="submit">
+      <input type="submit" value="Submit" name="submit" id="sub">
     </form>
   </div>
   <div class="container">
