@@ -108,7 +108,9 @@ p {
   text-align: center;
   color: #000000;
   font-family: Tahoma;
+  font-size: larger;
   padding-top: 40%;
+  font: bolder;
 }
 
 .hidden {
