@@ -13,7 +13,7 @@ $(document).ready(function () {
   portfolioHoverEffect("art", "art-txt");
   portfolioHoverEffect("giraffe", "giraffe-txt");
 
-  $("#sub").click(function (e) {
+  $("#form").submit(function (e) {
     e.preventDefault();
     alert("Your message has been received, Thank you.");
   });
